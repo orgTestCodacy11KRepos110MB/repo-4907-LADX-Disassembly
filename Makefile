@@ -25,9 +25,9 @@ FXFLAGS := \
   --pad-value 0xFF \
   --validate
 
-# Default target: build and test only the US 1.0 revision.
+# Default target: build only the US 1.0 revision.
 # (Use `make all` to build and test all targets.)
-default: build test
+default: build
 
 #
 # Generic rules

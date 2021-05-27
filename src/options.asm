@@ -5,6 +5,12 @@
 ; options will be listed here (and can optionally be enabled)
 ;
 
+; ------------------------------------------------------------
+;
+; DEBUG FLAGS
+;
+; ------------------------------------------------------------
+
 
 ;
 ; Debug flag 1
@@ -43,6 +49,13 @@
 ; - Jump to ending       (Push Start on the map screen)
 
 ;ENABLE_DEBUG_3 equ 1
+
+
+; ------------------------------------------------------------
+;
+; REVISIONS PATCHES
+;
+; ------------------------------------------------------------
 
 IF(!DEF(VERSION))
 VERSION equs "0"

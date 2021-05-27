@@ -51,6 +51,22 @@
 ;ENABLE_DEBUG_3 equ 1
 
 
+
+; ------------------------------------------------------------
+;
+; HACKS
+;
+; ------------------------------------------------------------
+
+; Enable several changes that free some ROM space in bank 0.
+;
+; When this flag is enabled, the game no longer matches the original ROM,
+; but otherwise has exactly the same behavior.
+
+FREE_BANK0 = 0
+
+
+
 ; ------------------------------------------------------------
 ;
 ; REVISIONS PATCHES
